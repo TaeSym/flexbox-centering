@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(https://images.unsplash.com/photo-1682448229587-0851d28000e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
@@ -111,32 +111,51 @@ body {
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
    
 }
 
 #content {
-    background: #222;
     background:rgba(0,0,0,0.7);
-    color: #fff;
+    color: #dff5e9;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.25em;
     line-height: 1.5em;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 0px 30px;
     width: 300px;
     height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    text-align: left;
    
 
 }
 
 #content p span {
     font-family: 'Lora', sans-serif;
+    font-weight: 600;
+}
+#content2 {
+    background:rgba(0,0,0,0.7);
+    color: #dff5e9;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    border-radius: 5px;
+    padding: 0px 30px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: right;
+   
+
 }
 
 
